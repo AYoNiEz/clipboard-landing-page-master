@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+main{
+    width: 100vw;
+    height: auto;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .header{
+            width: 100%;
+            background-image: url(/images/bg-header-desktop.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: top left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 7rem 2rem;
+            text-align: center;
+            .text-banner{
+                width: 100%;
+                margin-top: 3rem;
+                h1{
+                    font-size: 44px;
+                    font-weight: 600;
+                    color: $DarkGrayishBlue;
+                }
+                p{
+                    font-size: 20px;
+                    color: $GrayishBlue;
+                    padding: 1.3rem 0rem;
+                    line-height: 1.9rem;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            .download-box{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 500px;
+                margin-top: 1.5rem;
+                .ios{
+                    font-size: 18px;
+                    font-weight: 600;
+                    color:white ;
+                    background-color: $StrongCyan;
+                    border-radius: 2rem; 
+                    padding: 0.9rem 2.2rem;
+                    border-bottom: 3px solid #239f87;
+                    letter-spacing: 0.5px;
+                    box-shadow: 0px 5px 10px #77e5cf8d;
+                    cursor: pointer;
+                }
+                .ios:hover{
+                    background-color:#5dccbb;
+                }
+                .mac{
+                    letter-spacing: 0.5px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color:white ;
+                    background-color: #5e73ff;
+                    border-radius: 2rem; 
+                    padding: 0.9rem 2.2rem;
+                    border-bottom: 3px solid #5261d8;
+                    box-shadow: 0px 5px 10px #cacacaa3;
+                    cursor: pointer;
+                }
+                .mac:hover{
+                    background-color: #8896ff;
+                }
+            }
+        }
+        .container-wrapper{
+            text-align: center;
+            .box1{
+                width: 100%;
+                margin-top: 2rem;
+                h1{
+                    font-size: 34px;
+                    font-weight: 600;
+                    color: $DarkGrayishBlue;
+                }
+                p{
+                    font-size: 18px;
+                    color: $GrayishBlue;
+                    padding: 1.3rem 0rem;
+                    line-height: 1.9rem;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            .box2{
+                display: flex;
+                width: 100%;
+                margin: 4rem 0rem;
+                justify-content: center;
+                align-items: center;
+                
+                .computer{
+                    width: 50%;
+                    position: relative;
+                    .imac{
+                        margin-left: -30px;
+                    }
+                }
+                .computer-solution{
+                    width: 50%;
+                    text-align: left;
+                    margin: 0rem 6.5rem;
+                    .solution{
+                        margin-bottom: 2rem;
+                        h2{
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #4d545e;
+                        }
+                        p{
+                            font-size: 16px;
+                            color: $GrayishBlue;
+                            padding: 0.5rem 0rem;
+                            line-height: 1.9rem;
+                            margin-right: 10rem;
+                        }
+                    }
+                }
+            }
+            .box3{
+                width: 100%;
+                margin: 9rem 0rem 6rem 0rem;
+                h1{
+                    font-size: 34px;
+                    font-weight: 600;
+                    color: $DarkGrayishBlue;
+                }
+                p{
+                    font-size: 18px;
+                    color: $GrayishBlue;
+                    padding: 1.3rem 0rem;
+                    line-height: 1.9rem;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            .box4{
+                width: 100%;
+                margin-top: 5rem;
+                h1{
+                    font-size: 34px;
+                    font-weight: 600;
+                    color: $DarkGrayishBlue;
+                }
+                p{
+                    font-size: 18px;
+                    color: $GrayishBlue;
+                    padding: 1.3rem 0rem;
+                    line-height: 1.9rem;
+                }
+                .workflow{
+                    margin: 2rem 10rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    text-align: center;
+                    
+                    .workflow-box{
+                        width: 33%;
+                        img{
+                            margin: 1rem 0rem 2rem 0rem;
+                        }
+                        h2{
+                            font-size: 22px;
+                            font-weight: 600;
+                            color: $DarkGrayishBlue;
+                        }
+                        p{
+                            font-size: 16px;
+                            color: $GrayishBlue;
+                            padding: 1.3rem 0.5rem;
+                            line-height: 1.9rem;
+                           
+                        }
+                    }
+                    .workflow-box-first{
+                        width: 33%;
+                        img{
+                            margin: 1rem 0rem 1.5rem 0rem;
+                        }
+                        h2{
+                            font-size: 22px;
+                            font-weight: 600;
+                            color: $DarkGrayishBlue;
+                        }
+                        p{
+                            font-size: 16px;
+                            color: $GrayishBlue;
+                            padding: 1.3rem 0.5rem;
+                            line-height: 1.9rem;
+                           
+                        }
+                    }
+                    
+                }
+            }
+            .box5{
+                width: 100%;
+                padding: 5rem 11rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .box6{
+                width: 100%;
+                margin: 5rem 0rem 8rem 0rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-size: 36px;
+                    font-weight: 600;
+                    color: $DarkGrayishBlue;
+                }
+                p{
+                    font-size: 18px;
+                    color: $GrayishBlue;
+                    padding: 1.3rem 0rem;
+                    line-height: 1.9rem;
+                    span{
+                        display: block;
+                    }
+                }
+                .download-box{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 500px;
+                    margin-top: 1.5rem;
+                    .ios{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color:white ;
+                        background-color: $StrongCyan;
+                        border-radius: 2rem; 
+                        padding: 0.9rem 2.2rem;
+                        border-bottom: 3px solid #239f87;
+                        letter-spacing: 0.5px;
+                        box-shadow: 0px 5px 10px #77e5cf8d;
+                        cursor: pointer;
+                    }
+                    .ios:hover{
+                        background-color:#5dccbb;
+                    }
+                    .mac{
+                        letter-spacing: 0.5px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color:white ;
+                        background-color: #5e73ff;
+                        border-radius: 2rem; 
+                        padding: 0.9rem 2.2rem;
+                        border-bottom: 3px solid #5261d8;
+                        box-shadow: 0px 5px 10px #cacacaa3;
+                        cursor: pointer;
+                    }
+                    .mac:hover{
+                        background-color: #8896ff;
+                    }
+                }
+            }
+        }
+        .footer{
+            padding: 3rem 10rem;
+            width: 100%;
+            background-color: #f5f6f8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .footer-wrapper{
+                display: flex;
+                align-items: center;
+                .logo{
+                    img{
+                        width: 45%;
+                    }
+                }
+                .menu{
+                    display: flex;
+                    margin-left: 2rem;
+                    .menu-box{
+                        
+                        padding-right: 6rem;
+                        .menu-item{
+                            margin-bottom: 1rem;
+                            color: #5f6064;
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                        .menu-item:hover{
+                            color: $StrongCyan;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .social{
+                svg{
+                    margin: 0rem 0.5rem;
+                    cursor: pointer;
+                }
+                .socialmedia:hover{
+                    fill: $StrongCyan;
+                }
+            }
+            
+           
+        }
+    }
+}

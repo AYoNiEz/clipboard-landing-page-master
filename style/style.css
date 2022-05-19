@@ -1,0 +1,916 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: auto;
+}
+
+main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main .container .header {
+  width: 100%;
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7rem 2rem;
+  text-align: center;
+}
+
+main .container .header .text-banner {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+main .container .header .text-banner h1 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .header .text-banner p {
+  font-size: 20px;
+  color: #9fabb2;
+  padding: 1.3rem 0rem;
+  line-height: 1.9rem;
+}
+
+main .container .header .text-banner p span {
+  display: block;
+}
+
+main .container .header .download-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  margin-top: 1.5rem;
+}
+
+main .container .header .download-box .ios {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #26baa4;
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+  border-bottom: 3px solid #239f87;
+  letter-spacing: 0.5px;
+  -webkit-box-shadow: 0px 5px 10px #77e5cf8d;
+          box-shadow: 0px 5px 10px #77e5cf8d;
+  cursor: pointer;
+}
+
+main .container .header .download-box .ios:hover {
+  background-color: #5dccbb;
+}
+
+main .container .header .download-box .mac {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #5e73ff;
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+  border-bottom: 3px solid #5261d8;
+  -webkit-box-shadow: 0px 5px 10px #cacacaa3;
+          box-shadow: 0px 5px 10px #cacacaa3;
+  cursor: pointer;
+}
+
+main .container .header .download-box .mac:hover {
+  background-color: #8896ff;
+}
+
+main .container .container-wrapper {
+  text-align: center;
+}
+
+main .container .container-wrapper .box1 {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+main .container .container-wrapper .box1 h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box1 p {
+  font-size: 18px;
+  color: #9fabb2;
+  padding: 1.3rem 0rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box1 p span {
+  display: block;
+}
+
+main .container .container-wrapper .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 4rem 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .container-wrapper .box2 .computer {
+  width: 50%;
+  position: relative;
+}
+
+main .container .container-wrapper .box2 .computer .imac {
+  margin-left: -30px;
+}
+
+main .container .container-wrapper .box2 .computer-solution {
+  width: 50%;
+  text-align: left;
+  margin: 0rem 6.5rem;
+}
+
+main .container .container-wrapper .box2 .computer-solution .solution {
+  margin-bottom: 2rem;
+}
+
+main .container .container-wrapper .box2 .computer-solution .solution h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4d545e;
+}
+
+main .container .container-wrapper .box2 .computer-solution .solution p {
+  font-size: 16px;
+  color: #9fabb2;
+  padding: 0.5rem 0rem;
+  line-height: 1.9rem;
+  margin-right: 10rem;
+}
+
+main .container .container-wrapper .box3 {
+  width: 100%;
+  margin: 9rem 0rem 6rem 0rem;
+}
+
+main .container .container-wrapper .box3 h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box3 p {
+  font-size: 18px;
+  color: #9fabb2;
+  padding: 1.3rem 0rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box3 p span {
+  display: block;
+}
+
+main .container .container-wrapper .box4 {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+main .container .container-wrapper .box4 h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box4 p {
+  font-size: 18px;
+  color: #9fabb2;
+  padding: 1.3rem 0rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box4 .workflow {
+  margin: 2rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: center;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box {
+  width: 33%;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box img {
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box p {
+  font-size: 16px;
+  color: #9fabb2;
+  padding: 1.3rem 0.5rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box-first {
+  width: 33%;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box-first img {
+  margin: 1rem 0rem 1.5rem 0rem;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box-first h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box4 .workflow .workflow-box-first p {
+  font-size: 16px;
+  color: #9fabb2;
+  padding: 1.3rem 0.5rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box5 {
+  width: 100%;
+  padding: 5rem 11rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .container-wrapper .box6 {
+  width: 100%;
+  margin: 5rem 0rem 8rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container .container-wrapper .box6 h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4c545d;
+}
+
+main .container .container-wrapper .box6 p {
+  font-size: 18px;
+  color: #9fabb2;
+  padding: 1.3rem 0rem;
+  line-height: 1.9rem;
+}
+
+main .container .container-wrapper .box6 p span {
+  display: block;
+}
+
+main .container .container-wrapper .box6 .download-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  margin-top: 1.5rem;
+}
+
+main .container .container-wrapper .box6 .download-box .ios {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #26baa4;
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+  border-bottom: 3px solid #239f87;
+  letter-spacing: 0.5px;
+  -webkit-box-shadow: 0px 5px 10px #77e5cf8d;
+          box-shadow: 0px 5px 10px #77e5cf8d;
+  cursor: pointer;
+}
+
+main .container .container-wrapper .box6 .download-box .ios:hover {
+  background-color: #5dccbb;
+}
+
+main .container .container-wrapper .box6 .download-box .mac {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #5e73ff;
+  border-radius: 2rem;
+  padding: 0.9rem 2.2rem;
+  border-bottom: 3px solid #5261d8;
+  -webkit-box-shadow: 0px 5px 10px #cacacaa3;
+          box-shadow: 0px 5px 10px #cacacaa3;
+  cursor: pointer;
+}
+
+main .container .container-wrapper .box6 .download-box .mac:hover {
+  background-color: #8896ff;
+}
+
+main .container .footer {
+  padding: 3rem 10rem;
+  width: 100%;
+  background-color: #f5f6f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .footer .footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .footer .footer-wrapper .logo img {
+  width: 45%;
+}
+
+main .container .footer .footer-wrapper .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2rem;
+}
+
+main .container .footer .footer-wrapper .menu .menu-box {
+  padding-right: 6rem;
+}
+
+main .container .footer .footer-wrapper .menu .menu-box .menu-item {
+  margin-bottom: 1rem;
+  color: #5f6064;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+main .container .footer .footer-wrapper .menu .menu-box .menu-item:hover {
+  color: #26baa4;
+  cursor: pointer;
+}
+
+main .container .footer .social svg {
+  margin: 0rem 0.5rem;
+  cursor: pointer;
+}
+
+main .container .footer .social .socialmedia:hover {
+  fill: #26baa4;
+}
+
+@media screen and (max-width: 1000px) {
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    font-family: 'Bai Jamjuree', sans-serif;
+  }
+  main {
+    width: 100vw;
+    height: auto;
+  }
+  main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  main .container .header {
+    width: 100%;
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7rem 1rem;
+    text-align: center;
+  }
+  main .container .header .text-banner {
+    width: 100%;
+    margin-top: 3rem;
+  }
+  main .container .header .text-banner h1 {
+    padding: 0rem 1rem;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .header .text-banner p {
+    font-size: 15px;
+    color: #9fabb2;
+    padding: 1rem 1.7rem;
+    line-height: 1.9rem;
+  }
+  main .container .header .text-banner p span {
+    display: contents;
+  }
+  main .container .header .download-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    margin-top: 2rem;
+  }
+  main .container .header .download-box .ios {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #26baa4;
+    border-radius: 2rem;
+    padding: 0.9rem 2.2rem;
+    border-bottom: 3px solid #239f87;
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 0px 5px 10px #77e5cf8d;
+            box-shadow: 0px 5px 10px #77e5cf8d;
+    cursor: pointer;
+  }
+  main .container .header .download-box .ios:hover {
+    background-color: #5dccbb;
+  }
+  main .container .header .download-box .mac {
+    margin-top: 1.5rem;
+    width: 100%;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #5e73ff;
+    border-radius: 2rem;
+    padding: 0.9rem 2.2rem;
+    border-bottom: 3px solid #5261d8;
+    -webkit-box-shadow: 0px 5px 10px #cacacaa3;
+            box-shadow: 0px 5px 10px #cacacaa3;
+    cursor: pointer;
+  }
+  main .container .header .download-box .mac:hover {
+    background-color: #8896ff;
+  }
+  main .container .container-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+  main .container .container-wrapper .box1 {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  main .container .container-wrapper .box1 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box1 p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 1rem 1rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box1 p span {
+    display: contents;
+  }
+  main .container .container-wrapper .box2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 4rem 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container .container-wrapper .box2 .computer {
+    width: 100%;
+    position: relative;
+  }
+  main .container .container-wrapper .box2 .computer .imac {
+    width: 90%;
+    margin-left: 0px;
+  }
+  main .container .container-wrapper .box2 .computer-solution {
+    width: 100%;
+    text-align: center;
+    margin: 0rem 0rem;
+  }
+  main .container .container-wrapper .box2 .computer-solution .solution {
+    margin: 2rem 0rem;
+  }
+  main .container .container-wrapper .box2 .computer-solution .solution h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4d545e;
+  }
+  main .container .container-wrapper .box2 .computer-solution .solution p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 0.5rem 1.5rem;
+    line-height: 1.9rem;
+    margin-right: 0rem;
+  }
+  main .container .container-wrapper .box3 {
+    width: 100%;
+    margin: 3rem 0rem 6rem 0rem;
+  }
+  main .container .container-wrapper .box3 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box3 p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 1.3rem 1rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box3 p span {
+    display: contents;
+  }
+  main .container .container-wrapper .device .device-picture {
+    width: 100%;
+  }
+  main .container .container-wrapper .box4 {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  main .container .container-wrapper .box4 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box4 p {
+    font-size: 18px;
+    color: #9fabb2;
+    padding: 1.3rem 0rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box4 .workflow {
+    margin: 2rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: center;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box {
+    width: 100%;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box img {
+    margin: 2rem 0rem 3rem 0rem;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 1.3rem 0.5rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box-first {
+    width: 100%;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box-first img {
+    margin: 2rem 0rem 3rem 0rem;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box-first h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box4 .workflow .workflow-box-first p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 1.3rem 0.5rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box5 {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container .container-wrapper .box5 img {
+    margin: 2rem 0rem;
+  }
+  main .container .container-wrapper .box6 {
+    width: 100%;
+    margin: 5rem 0rem 8rem 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .container .container-wrapper .box6 h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4c545d;
+  }
+  main .container .container-wrapper .box6 p {
+    font-size: 16px;
+    color: #9fabb2;
+    padding: 1.5rem 1.2rem;
+    line-height: 1.9rem;
+  }
+  main .container .container-wrapper .box6 p span {
+    display: contents;
+  }
+  main .container .container-wrapper .box6 .download-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  main .container .container-wrapper .box6 .download-box .ios {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #26baa4;
+    border-radius: 2rem;
+    padding: 0.9rem 2.2rem;
+    border-bottom: 3px solid #239f87;
+    letter-spacing: 0.5px;
+    -webkit-box-shadow: 0px 5px 10px #77e5cf8d;
+            box-shadow: 0px 5px 10px #77e5cf8d;
+    cursor: pointer;
+  }
+  main .container .container-wrapper .box6 .download-box .ios:hover {
+    background-color: #5dccbb;
+  }
+  main .container .container-wrapper .box6 .download-box .mac {
+    margin-top: 1.5rem;
+    width: 100%;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #5e73ff;
+    border-radius: 2rem;
+    padding: 0.9rem 2.2rem;
+    border-bottom: 3px solid #5261d8;
+    -webkit-box-shadow: 0px 5px 10px #cacacaa3;
+            box-shadow: 0px 5px 10px #cacacaa3;
+    cursor: pointer;
+  }
+  main .container .container-wrapper .box6 .download-box .mac:hover {
+    background-color: #8896ff;
+  }
+  main .container .footer {
+    padding: 3rem 1rem;
+    width: 100%;
+    background-color: #f5f6f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container .footer .footer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .container .footer .footer-wrapper .logo img {
+    width: 45%;
+  }
+  main .container .footer .footer-wrapper .menu {
+    margin: 1.5rem 0rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0rem;
+  }
+  main .container .footer .footer-wrapper .menu .menu-box {
+    padding-right: 0rem;
+  }
+  main .container .footer .footer-wrapper .menu .menu-box .menu-item {
+    margin-bottom: 1.5rem;
+    color: #5f6064;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  main .container .footer .footer-wrapper .menu .menu-box .menu-item:hover {
+    color: #26baa4;
+    cursor: pointer;
+  }
+  main .container .footer .social svg {
+    margin: 0rem 0.5rem;
+    cursor: pointer;
+  }
+  main .container .footer .social .socialmedia:hover {
+    fill: #26baa4;
+  }
+}
+/*# sourceMappingURL=style.css.map */
